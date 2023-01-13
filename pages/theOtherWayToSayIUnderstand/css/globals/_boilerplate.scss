@@ -1,0 +1,86 @@
+html,
+body {
+  position: relative;
+}
+body {
+  background-color: #f8d2ca;
+  font-size: 1.8rem;
+
+  header {
+    background-color: #f8d2ca;
+  }
+  header::after {
+    content: '';
+    display: block;
+    background-color: #e9caf8;
+    width: 59rem;
+    height: 59rem;
+    position: absolute;
+    top: -249px;
+    left: -242px;
+    z-index: -1;
+    border-radius: 50%;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 75vh;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .slide {
+      width: 34.6rem;
+      padding: 4rem 2.5rem;
+      border: 0.4rem solid #000;
+      box-shadow: 0.6rem 0.6rem #000;
+      line-height: 3rem;
+      text-align: initial;
+    }
+    span {
+      display: block;
+      padding: 1rem 0;
+      font-weight: 700;
+    }
+    .slide[name='one'] {
+      background-color: #f0f8ca;
+      font-weight: 700;
+      box-shadow: none;
+      text-align: center;
+    }
+    .slide[name='two'] {
+      background-color: #caf0f8;
+    }
+    .slide[name='three'] {
+      background-color: #d9f8ca;
+    }
+    .slide[name='four'] {
+      background-color: #e9caf8;
+    }
+    .slide[name='five'] {
+      background-color: #f7e6c2;
+    }
+    .slide[name='six'] {
+      background-color: #f7c2d3;
+    }
+    .slide[name='seven'] {
+      background-color: #c2f7e6;
+    }
+    .slide[name='eight'] {
+      background-color: #eef7c2;
+    }
+    .slide[name='nine'] {
+      background-color: #f7e6c2;
+    }
+    .slide[name='ten'] {
+      background-color: #95e0f1;
+    }
+    .slide[name='eleven'] {
+      background-color: #d3f7c2;
+    }
+  }
+}

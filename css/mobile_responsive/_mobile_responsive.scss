@@ -1,0 +1,36 @@
+@media (max-width: 26em) {
+  html {
+    font-size: 50%;
+  }
+  header {
+    nav {
+      display: none;
+    }
+    button {
+      display: block;
+    }
+  }
+  .hero {
+    .hero_content {
+      padding: 0;
+      gap: 4.8rem;
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  }
+  .section_courses {
+    .section_courses_content {
+      padding: 0;
+
+      .container {
+        .first_course {
+          p {
+            span {
+              display: block;
+            }
+          }
+        }
+      }
+    }
+  }
+}
